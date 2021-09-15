@@ -1,0 +1,16 @@
+<%product = Product.find_by(id: product_id) %>
+
+<tr>
+  <td>
+    <h4><%= product.name %></h4>
+    <%= image_tag product.image.tiny %>
+  </td>
+  <td>
+    <p><%= product.description %></p>
+  </td>
+  <td>
+    <h4><%= quantity %></h4>
+  <td>
+    <%= humanized_money_with_symbol product.price * quantity %>
+  </td>
+</tr>
