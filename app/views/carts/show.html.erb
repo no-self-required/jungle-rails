@@ -5,8 +5,10 @@
   </header>
 
   <% if cart.empty? %>
+    <div class=" alert alert-warning" role="alert">
     <h1>Your cart is empty!</h1>
-    <%= link_to 'home', root_path %>
+    <%= link_to 'Products', root_path %>
+    </div>
   <% else %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
