@@ -1,8 +1,15 @@
 <h1>Admin Dashboard</h1>
-<p>
-  Product count: <%= @product_count %>
-</p>
-<p>
-  Category count: <%= @category_count %>
-</p>
 
+<table style="width: 200px" class="table table-bordered" >
+<thead>
+  <tr>
+    <th>Product Count</th>
+    <td><%= @product_count %></td>
+  </tr>
+  <tr>
+    <th>Category Count</th>
+    <td><%= @category_count %></td>
+  </tr>
+</thead>
+
+</table>
