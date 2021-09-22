@@ -2,14 +2,14 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
-URLs directory
-![URLs directory](https://raw.githubusercontent.com/no-self-required/tinyapp/master/docs/urls-page.png)
+Products
+![URLs directory](https://raw.githubusercontent.com/no-self-required/jungle-rails/master/docs/jungleHOME.png)
 
-URLs directory
-![URLs directory](https://raw.githubusercontent.com/no-self-required/tinyapp/master/docs/urls-page.png)
+Cart
+![URLs directory](https://raw.githubusercontent.com/no-self-required/jungle-rails/master/docs/CartJUNGLE.png)
 
-URLs directory
-![URLs directory](https://raw.githubusercontent.com/no-self-required/tinyapp/master/docs/urls-page.png)
+Order
+![URLs directory](https://raw.githubusercontent.com/no-self-required/jungle-rails/master/docs/orderJUNGLE.png)
 
 
 ## Additional Steps for Apple M1 Machines
